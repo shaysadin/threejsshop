@@ -25,16 +25,16 @@ const CameraRig = ({ children }) => {
     
     easing.damp3(state.camera.position, targetPosition, 0.25, delta)
 
-    // Increase the rotation factor to make the camera rotate more
-  const rotationFactorX = 0.15; // Adjust this value for more rotation sensitivity
-  const rotationFactorY = 0.25; // Adjust this value for more rotation sensitivity
+  //   // Increase the rotation factor to make the camera rotate more
+  // const rotationFactorX = 0.15; // Adjust this value for more rotation sensitivity
+  // const rotationFactorY = 0.25; // Adjust this value for more rotation sensitivity
 
-  easing.dampE(
-    group.current.rotation,
-    [state.pointer.y * rotationFactorX, -state.pointer.x * rotationFactorY, 0],
-    0.25,
-    delta
-  );
+  // easing.dampE(
+  //   group.current.rotation,
+  //   [state.pointer.y * rotationFactorX, -state.pointer.x * rotationFactorY, 0],
+  //   0.25,
+  //   delta
+  // );
 
     // easing.dampE(
     //     group.current.rotation,
