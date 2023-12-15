@@ -12,7 +12,7 @@ const Backdrop = () => {
       temporal
       frames={60}
       alphaTest={0.22}
-      scale={10}
+      scale={5}
       rotation={[Math.PI / 2, 0, 0]}
       position={[0, 0, -0.14]}
     >
